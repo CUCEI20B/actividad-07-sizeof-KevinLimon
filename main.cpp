@@ -7,10 +7,10 @@ int main() {
     string dato;
     getline(cin, dato);
     if(dato=="char"){
-        cout<<sizeof(int)<<endl;
+        cout<<sizeof(char)<<endl;
     }
     else if(dato=="int"){
-        cout<<sizeof(char)<<endl;
+        cout<<sizeof(int)<<endl;
     }
     else if(dato=="short"){
         cout<<sizeof(short)<<endl;
